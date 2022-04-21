@@ -1,8 +1,9 @@
 # Cài đặt môi trường
 
 - Cài đặt `VSCode`
-- Cài đặt `NodeJS`: làm theo videos này https://www.youtube.com/watch?v=bqXyrCjT7V4
+- Cài đặt `NodeJS`: nếu chưa cài có thể làm theo videos này https://www.youtube.com/watch?v=bqXyrCjT7V4
 - Cài đặt `Git`
+- 
   _Note:_ Nếu mọi người đã cài rồi thì skip bước này
 
 # Git terminal command line
