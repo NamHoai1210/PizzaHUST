@@ -1,4 +1,24 @@
+// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+import { getAuth } from 'firebase/auth';
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const app = initializeApp({
+  apiKey: "AIzaSyCAiIUNJ6gfXnkxxgFCVqGJrZ74mlDs_zQ",
+  authDomain: "pizzahust-c5035.firebaseapp.com",
+  databaseURL: "https://pizzahust-c5035-default-rtdb.firebaseio.com",
+  projectId: "pizzahust-c5035",
+  storageBucket: "pizzahust-c5035.appspot.com",
+  messagingSenderId: "617489313223",
+  appId: "1:617489313223:web:d113632ae0c73b0041fde2"
+});
+
+// Initialize Firebase
+export default app;
+export const auth = getAuth(app);
+/*import { initializeApp } from "firebase/app";
 import {getAuth} from 'firebase/auth';
 
 const app= initializeApp  ({
@@ -12,7 +32,6 @@ const app= initializeApp  ({
     measurementId: '${config.measurementId}'
   });
 export default app;
-export const auth = getAuth(app);
+export const auth = getAuth(app);*/
 
 
-  

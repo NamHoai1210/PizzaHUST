@@ -214,7 +214,8 @@ export const CartPage = ()=>{
         const order = makeOrder()
         try{
             const result = await axios.post(
-                'https://pizzahust-d7124-default-rtdb.asia-southeast1.firebasedatabase.app/order.json',
+                //'https://pizzahust-d7124-default-rtdb.asia-southeast1.firebasedatabase.app/order.json',
+                'https://pizzahust-c5035-default-rtdb.firebaseio.com/order.json',
                 order
             )
             if(result && result.status === 200){

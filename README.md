@@ -17,3 +17,4 @@ Vào git bash terminal rồi gõ lệnh phía dưới:
   - `npm start`
 
 Sau đó nó sẽ tự động mở trình duyệt và loading web
+# PizzaHUST

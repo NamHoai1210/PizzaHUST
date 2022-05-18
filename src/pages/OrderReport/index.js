@@ -25,7 +25,7 @@ function OrderReport() {
     const OrderList = keys.slice(orderStart, orderEnd +1)
     useEffect(()=>{
         async function fetchOrderLists() {
-            const requestUrl='https://pizzahust-d7124-default-rtdb.asia-southeast1.firebasedatabase.app/order.json';
+            const requestUrl='https://pizzahust-c5035-default-rtdb.firebaseio.com/order.json';//'https://pizzahust-d7124-default-rtdb.asia-southeast1.firebasedatabase.app/order.json';
             const response = await fetch(requestUrl);
             const responseJSON = await response.json();
             
