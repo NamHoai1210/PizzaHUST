@@ -171,7 +171,7 @@ export const SinglePizza = () => {
                             color: '#EA6A12',
                             textAlign: 'start'
                         }}
-                    >$ {sizes[size].type_price}
+                    >$ {pizza.price+sizes[size].type_price}
                     </div>
                     <Rating value={pizza.rating} readOnly
                         sx={{
